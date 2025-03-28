@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Josefin Sans", sans-serif;
+
+  p {
+    letter-spacing: 0.8px; /* Adiciona um pequeno espaçamento entre as letras */
+  }
 }
 
 .caixa-principal {
@@ -160,6 +164,7 @@ section div p {
   font-size: 24px;
   margin-top: 15px;
   margin-bottom: 60px;
+  letter-spacing: 0.8px; /* Adiciona um pequeno espaçamento entre as letras */
 }
 .campos {
   left: 60%;
@@ -189,7 +194,7 @@ textarea {
 button {
   display: inline-block;
   position: relative;
-  left: 10px;
+  /* left: 10px; */
 }
 
 button {
@@ -254,6 +259,7 @@ div {
   color: #e2b9c6;
   margin-top: 10px;
   margin-bottom: 40px;
+  letter-spacing: 0.8px; /* Adiciona um pequeno espaçamento entre as letras */
 }
 
 .card a {
@@ -302,6 +308,7 @@ footer p {
   font-size: 18px;
   margin-top: 14px;
   margin-bottom: 30px;
+  letter-spacing: 0.8px; /* Adiciona um pequeno espaçamento entre as letras */
 }
 
 .social {
@@ -477,6 +484,7 @@ form {
   font-size: 16px;
   color: #ffffff;
   margin: 5px 0;
+  letter-spacing: 0.8px; /* Adiciona um pequeno espaçamento entre as letras */
 }
 
 #voltar-topo {
@@ -556,7 +564,7 @@ a:hover {
 }
 
 .modal-conteudo {
-  margin: auto;
+  margin: 80px auto;
   display: block;
   max-width: 80%;
   max-height: 80%;
