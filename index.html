@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Portfólio de Alex Corrêa, Programador Front End com experiência em HTML, CSS, JavaScript, React e Node.">
+
+    <link rel="stylesheet" href="./styles.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;500&display=swap" rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <title>Alex Corrêa</title>
+</head>
+
+<body>
+
+
+    <div class="caixa-principal" id="home">
+
+        <header class="barra-inicial">
+            <nav>
+                <h2 class="portfolio">Portfo<span>lio</span></h2>
+                <ul>
+                    <li><a class="link-menu" href="#home" aria-label="Ir para a seção Home">Home</a></li>
+                    <li><a class="link-menu" href="#sobre" aria-label="Ir para a seção Sobre">Sobre</a></li>
+                    <li><a class="link-menu" href="#projetos-id" aria-label="Ir para a seção Projetos">Projetos</a></li>
+                    <li><a class="link-menu" href="#fale-comigo" aria-label="Ir para a seção Fale comigo">Fale
+                            comigo</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="meu-nome" data-aos="fade-up">
+            <h1>Alex<span>Corrêa</span></h1>
+            <h3>Programador Front End</h3>
+        </div>
+
+        <div class="video-fundo">
+            <video src="assets/image/Video-sem-titulo-‐-Feito-com-o-Clipchamp-1-1.mp4" autoplay muted loop></video>
+            <div class="mascara-video"></div>
+        </div>
+    </div>
+
+    <section id="sobre" data-aos="fade-right">
+        <img src="assets/image/Alex.jpeg" alt="Foto de Alex Corrêa" loading="lazy">
+        <div>
+            <h2>Sobre mim</h2>
+            <p>Eu sou um Programador FullStack, tenho experiência e conhecimento criando aplicações com HTML, CSS,
+                JavaScript, React e Node.</p>
+
+            <button class="btn" onclick="abrir()">Entre em contato</button>
+        </div>
+
+
+    </section>
+
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+    <div class="projetos" id="projetos-id">
+        <h2>Principais Projetos</h2>
+
+        <div class="card-projetos">
+
+            <div class="card">
+                <img src="assets/icons/NetFlix.jpg" alt="Projeto Netflix" loading="lazy">
+                <h5>Netflix</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ad error harum doloribus labore,
+                    odio necessitatibus officia illum rem veritatis possimus aut</p>
+                <a href="https://peaceful-starlight-02739b.netlify.app/" target="_blank">Ver Projeto</a>
+            </div>
+
+            <div class="card">
+                <img src="assets/icons/starbucks.png" alt="Projeto Starbucks" loading="lazy">
+                <h5>Starbucks</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ad error harum doloribus labore,
+                    odio necessitatibus officia illum rem veritatis possimus aut</p>
+                <div class="button">
+                    <a href="https://starbucks-alex.netlify.app/" target="_blank">Ver Projeto</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="assets/icons/crono.png" alt="Projeto Cronômetro" loading="lazy">
+                <h5>Cronometro</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ad error harum doloribus labore,
+                    odio necessitatibus officia illum rem veritatis possimus aut</p>
+                <a href="https://cronometro-mpdz.netlify.app/" target="_blank">Ver Projeto</a>
+            </div>
+
+            <div class="card">
+                <img src="assets/icons/sorterador.png" alt="Projeto Sorteador" loading="lazy">
+                <h5>Sorteador</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ad error harum doloribus labore,
+                    odio necessitatibus officia illum rem veritatis possimus aut</p>
+                <a href="https://sorteadorcom.netlify.app/" target="_blank">Ver Projeto</a>
+            </div>
+
+            <div class="card">
+                <img src="assets/icons/previsao do tempo.jpg" alt="Projeto Previsão do Tempo" loading="lazy">
+                <h5>Previsão do tempo</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ad error harum doloribus labore,
+                    odio necessitatibus officia illum rem veritatis possimus aut</p>
+                <a href="https://previsaodotempo-alex.netlify.app/" target="_blank">Ver Projeto</a>
+            </div>
+
+            <div class="card">
+                <img src="assets/icons/game.png" alt="Projeto Página de Gamer" loading="lazy">
+                <h5>Pagina de Gamer</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ad error harum doloribus labore,
+                    odio necessitatibus officia illum rem veritatis possimus aut</p>
+                <a href="https://resplendent-kangaroo-d113c2.netlify.app/" target="_blank">Ver Projeto</a>
+            </div>
+
+            <div class="card">
+                <img src="assets/icons/to-do list.png" alt="Projeto Todo-list Tarefas" loading="lazy">
+                <h5>Todo-list Tardefas</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ad error harum doloribus labore,
+                    odio necessitatibus officia illum rem veritatis possimus aut</p>
+                <a href="https://todo-lista-tarefas.netlify.app/" target="_blank">Ver Projeto</a>
+            </div>
+
+        </div>
+    </div>
+
+    <section id="soft-skills" data-aos="fade-up">
+        <h2>Soft Skills</h2>
+        <ul class="soft-skills-list">
+            <li>Comunicação</li>
+            <li>Trabalho em equipe</li>
+            <li>Resolução de problemas</li>
+            <li>Adaptabilidade</li>
+            <li>Gestão de tempo</li>
+            <li>Empatia</li>
+        </ul>
+    </section>
+
+    <section id="tecnologias" data-aos="fade-up">
+        <h2>Minhas Tecnologias</h2>
+        <ul class="tecnologias-lista">
+            <li><img src="assets/icons/vscode.svg" alt="Ícone do Visual Studio Code" loading="lazy"></li>
+            <li><img src="assets/icons/html5.svg" alt="Ícone do HTML5" loading="lazy"></li>
+            <li><img src="assets/icons/css3.svg" alt="Ícone do CSS3" loading="lazy"></li>
+            <li><img src="assets/icons/js.svg" alt="Ícone do JavaScript" loading="lazy"></li>
+            <li><img src="assets/icons/github.svg" alt="Ícone do GitHub" loading="lazy"></li>
+            <li><img src="assets/icons/git.svg" alt="Ícone do MongoDB" loading="lazy"></li>
+            <li><img src="assets/icons/react.svg" alt="Ícone do React" loading="lazy"></li>
+            <li><img src="assets/icons/typescript.svg" alt="Ícone do TypeScript" loading="lazy"></li>
+            <li><img src="assets/icons/node.svg" alt="Ícone do Node.js" loading="lazy"></li>
+            <li><img src="assets/icons/mongodb.svg" alt="Ícone do MongoDB" loading="lazy"></li>
+        </ul>
+    </section>
+
+    <!-- Adicione antes do rodapé -->
+    <section id="certificacoes" data-aos="fade-up">
+        <h2>Certificações</h2>
+        <ul class="certificacoes-lista">
+            <li>
+                <img src="assets/image/fundamentos-programacao-html-css-javascript-git-github.png"
+                    alt="Certificação Fundamentos em Programação" onclick="abrirModal(this)">
+                <h3>Certificação Fundamentos em Programação</h3>
+                <p>Emitido por: Rocketseat</p>
+                <p>Ano: 2025</p>
+            </li>
+            <li>
+                <img src="assets/image/basico-git-github.png" alt="Certificação Git e GitHub">
+                <h3>Certificação Git e GitHub</h3>
+                <p>Emitido por: Rocketseat</p>
+                <p>Ano: 2025</p>
+            </li>
+            <li>
+                <img src="assets/image/devclub.png" alt="Certificação FullStack">
+                <h3>Certificação FullStack</h3>
+                <p>Emitido por: DevClub</p>
+                <p>Ano: 2023, 2024</p>
+            </li>
+        </ul>
+    </section>
+
+    <footer id="fale-comigo">
+        <h5>Alex Corrêa</h5>
+        <p>Para mais informações</p>
+
+        <div class="social">
+            <a href="https://www.linkedin.com/in/alex-correa-de-lima/" target="_blank">
+                <img src="assets/icons/linkedin.png" alt="Ícone do LinkedIn" loading="lazy">
+            </a>
+
+            <a href="https://web.whatsapp.com/send?phone=5548999323224">
+                <img src="assets/icons/WhatsApp-icone-3.png" alt="Ícone do WhatsApp" loading="lazy">
+            </a>
+
+            <a href="https://github.com/Allexlima1606">
+                <img src="assets/icons/github.svg" alt="Ícone do GitHub" loading="lazy">
+            </a>
+        </div>
+        <br>
+        <p>&copy; 2025 Alex Corrêa. Todos os direitos reservados.</p>
+    </footer>
+    <button id="voltar-topo" onclick="scrollToTop()">⬆</button>
+
+    <form class="campos" action="https://formsubmit.co/allex.z@hotmail.com" method="POST">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="text" name="name" required placeholder="Nome" minlength="3">
+        <input type="email" name="email" required placeholder="Email">
+        <textarea name="duvida" placeholder="Sua dúvida aqui" required></textarea>
+        <button type="submit">Enviar</button>
+        <button onclick="fechar()" type="button" class="voltar">Voltar</button>
+    </form>
+
+    <script src="script.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <div id="modal" class="modal">
+        <span class="fechar" onclick="fecharModal()">&times;</span>
+        <img class="modal-conteudo" id="imagemModal">
+    </div>
+</body>
+
+</html>
